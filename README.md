@@ -186,6 +186,7 @@ La herencia se representa entre Libro y LibroDigital.
 LibroDigital hereda las características de Libro y agrega atributos y métodos propios.
 
 Libro
+
   △
   
   |

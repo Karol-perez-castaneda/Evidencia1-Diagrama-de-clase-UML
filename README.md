@@ -19,19 +19,24 @@ un sistema de biblioteca.
 ## 📌 Información de la actividad
 
 Actividad: EA1 – Diagrama de Clases UML
+
 Tema: Sistema de Biblioteca
+
 Asignatura: PROGRAMACIÓN II: ORIENTADA A OBJETOS AVANZADA - PREICA2602B010093
+
 Docente: BORIS ALBERTO SALLEG
+
 Grupo: 7
+
 Fecha: 30/08/2026
 
 
-## 🎯 Objetivo
+## Objetivo
 
 Diseñar un Diagrama de Clases UML para representar la estructura de un sistema de biblioteca, aplicando conceptos de Programación Orientada a Objetos y diferentes tipos de relaciones entre las clases.
 
 
-## 📖 Descripción del proyecto
+## Descripción del proyecto
 
 El proyecto representa un sistema básico de biblioteca en el que se gestionan libros, autores, usuarios y préstamos.
 
@@ -42,12 +47,12 @@ También se incluye la clase LibroDigital, que representa un tipo específico de
 El diagrama fue elaborado utilizando UML y PlantUML.
 
 
-## 🧩 Descripción del diagrama
+## Descripción del diagrama
 
 El Diagrama de Clases UML está compuesto por las siguientes clases:
 
 
-## 📘 Libro
+## Libro
 
 Representa los libros disponibles en la biblioteca.
 
@@ -66,7 +71,7 @@ Representa los libros disponibles en la biblioteca.
 . obtenerInfo() 
 
 
-## ✍️ Autor
+## Autor
 
 Representa a los autores de los libros.
 
@@ -83,7 +88,7 @@ Representa a los autores de los libros.
 . obtenerInfo()
 
 
-## 👤 Usuario
+## Usuario
 
 Representa a las personas que utilizan el servicio de la biblioteca.
 
@@ -100,7 +105,7 @@ Representa a las personas que utilizan el servicio de la biblioteca.
 . obtenerInfo()
 
 
-## 📑 Préstamo
+## Préstamo
 
 Representa el registro de los préstamos realizados en la biblioteca.
 
@@ -119,7 +124,7 @@ Representa el registro de los préstamos realizados en la biblioteca.
 . calcularDiasAtraso()
 
 
-## 💻 LibroDigital
+## LibroDigital
 
 Representa una especialización de la clase Libro.
 
@@ -136,7 +141,7 @@ Representa una especialización de la clase Libro.
 . leerEnLinea()
 
 
-## 🔄 EstadoDisponibilidad
+## EstadoDisponibilidad
 
 Representa los diferentes estados en los que puede encontrarse un libro:
 
@@ -182,11 +187,13 @@ LibroDigital hereda las características de Libro y agrega atributos y métodos 
 
 Libro
   △
+  
   |
+  
 LibroDigital
 
 
-## 🔢 Multiplicidades
+## Multiplicidades
 
 Las multiplicidades permiten indicar cuántos objetos pueden participar en cada relación.
 
@@ -197,7 +204,7 @@ Multiplicidad	      Significado
 1..*	              Uno o muchos
 
 
-## 🧠 Conceptos de Programación Orientada a Objetos
+## Conceptos de Programación Orientada a Objetos
 
 ### Abstracción
 
@@ -219,7 +226,7 @@ LibroDigital hereda características de Libro, permitiendo reutilizar atributos 
 Permite que un objeto de LibroDigital pueda ser tratado como un objeto de tipo Libro, manteniendo además sus comportamientos específicos.
 
 
-## 🧱 Principios SOLID
+## Principios SOLID
 
 ### S – Responsabilidad única
 
@@ -249,18 +256,18 @@ El proyecto fue desarrollado de manera colaborativa mediante GitHub.
 Cada integrante participa en el desarrollo del proyecto utilizando su propia cuenta y realizando aportes mediante commits.
 
 
-# 🖼️ Diagrama UML
+# Diagrama UML
 
 El diagrama de clases completo se encuentra en la carpeta diagrama.
 
 ### Archivo: Diagrama_UML_Biblioteca_Grupo7.png
 
 
-# 📄 Código PlantUML
+# Código PlantUML
 
 El código utilizado para elaborar el diagrama se encuentra en la carpeta plantuml.
 
-Archivo: DiagramaBiblioteca.puml
+### Archivo: Codigo PlantUML.PDF
 
 
 # 🎥 Video de presentación
@@ -276,7 +283,7 @@ https://github.com/Karol-perez-castaneda/Evidencia1-Diagrama-de-clase-UML.git
 https://drive.google.com/file/d/10xt2gp7s5A51lOUOzXbk249WCyo7InvC/view?usp=drive_link
 
 
-# 🏁 Conclusiones
+# Conclusiones
 
 El desarrollo del Diagrama de Clases UML permitió representar de manera organizada la estructura de un sistema de biblioteca.
 

@@ -248,23 +248,6 @@ El proyecto fue desarrollado de manera colaborativa mediante GitHub.
 
 Cada integrante participa en el desarrollo del proyecto utilizando su propia cuenta y realizando aportes mediante commits.
 
-El repositorio contiene el diagrama UML, el código PlantUML, el documento de la actividad y las evidencias del trabajo colaborativo.
-
-
-# 📂 Estructura del repositorio
-Evidencia1-Diagrama-de-clase-UML/
-│
-├── README.md
-│
-├── diagrama/
-│   └── Diagrama_UML_Biblioteca_Grupo7.png
-│
-├── documento/
-│   └── EA1_DiagramaClases_Grupo7.pdf
-│
-└──plantuml/
-    └── DiagramaBiblioteca.puml
-
 
 # 🖼️ Diagrama UML
 
@@ -283,13 +266,11 @@ Archivo: DiagramaBiblioteca.puml
 # 🎥 Video de presentación
 
 Enlace al video:
-
-[PEGAR AQUÍ EL ENLACE DEL VIDEO]
+https://drive.google.com/file/d/16QTO7JstaKnW3YINzWOJpNELQYrKvnMW/view?usp=drivesdk 
 
 
 # 🔗 Enlace al repositorio
-
-[PEGAR AQUÍ EL ENLACE DEL REPOSITORIO DE GITHUB]
+https://github.com/Karol-perez-castaneda/Evidencia1-Diagrama-de-clase-UML.git
 
 
 # 🏁 Conclusiones

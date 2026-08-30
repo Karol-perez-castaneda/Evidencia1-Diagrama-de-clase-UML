@@ -182,7 +182,7 @@ LibroDigital hereda las características de Libro y agrega atributos y métodos 
 
 Libro
   △
-  │
+  |
 LibroDigital
 
 

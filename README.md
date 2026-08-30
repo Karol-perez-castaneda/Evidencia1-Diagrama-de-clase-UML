@@ -7,7 +7,7 @@ Este repositorio contiene el desarrollo de la actividad EA1,
 correspondiente al diseño de un Diagrama de Clases UML para
 un sistema de biblioteca.
 
-### Integrantes
+## Integrantes
 
 1. EMILSE CAVADIA TORDECILLA
 2. CRISTIAN CAMILO DEOSSA BOLIVAR
@@ -16,7 +16,7 @@ un sistema de biblioteca.
 5. NICOLE VALENTINA QUEVEDO FRANCO
 
 
-### 📌 Información de la actividad
+## 📌 Información de la actividad
 
 Actividad: EA1 – Diagrama de Clases UML
 Tema: Sistema de Biblioteca
@@ -25,11 +25,13 @@ Docente: BORIS ALBERTO SALLEG
 Grupo: 7
 Fecha: 30/08/2026
 
-### 🎯 Objetivo
+
+## 🎯 Objetivo
 
 Diseñar un Diagrama de Clases UML para representar la estructura de un sistema de biblioteca, aplicando conceptos de Programación Orientada a Objetos y diferentes tipos de relaciones entre las clases.
 
-### 📖 Descripción del proyecto
+
+## 📖 Descripción del proyecto
 
 El proyecto representa un sistema básico de biblioteca en el que se gestionan libros, autores, usuarios y préstamos.
 
@@ -39,11 +41,13 @@ También se incluye la clase LibroDigital, que representa un tipo específico de
 
 El diagrama fue elaborado utilizando UML y PlantUML.
 
-### 🧩 Descripción del diagrama
+
+## 🧩 Descripción del diagrama
 
 El Diagrama de Clases UML está compuesto por las siguientes clases:
 
-### 📘 Libro
+
+## 📘 Libro
 
 Representa los libros disponibles en la biblioteca.
 
@@ -61,7 +65,8 @@ Representa los libros disponibles en la biblioteca.
 . actualizarEstado()
 . obtenerInfo() 
 
-### ✍️ Autor
+
+## ✍️ Autor
 
 Representa a los autores de los libros.
 
@@ -77,7 +82,8 @@ Representa a los autores de los libros.
 . escribirLibro()
 . obtenerInfo()
 
-### 👤 Usuario
+
+## 👤 Usuario
 
 Representa a las personas que utilizan el servicio de la biblioteca.
 
@@ -93,7 +99,8 @@ Representa a las personas que utilizan el servicio de la biblioteca.
 . registrar()
 . obtenerInfo()
 
-### 📑 Préstamo
+
+## 📑 Préstamo
 
 Representa el registro de los préstamos realizados en la biblioteca.
 
@@ -111,7 +118,8 @@ Representa el registro de los préstamos realizados en la biblioteca.
 . devolver()
 . calcularDiasAtraso()
 
-### 💻 LibroDigital
+
+## 💻 LibroDigital
 
 Representa una especialización de la clase Libro.
 
@@ -127,7 +135,8 @@ Representa una especialización de la clase Libro.
 . descargar()
 . leerEnLinea()
 
-### 🔄 EstadoDisponibilidad
+
+## 🔄 EstadoDisponibilidad
 
 Representa los diferentes estados en los que puede encontrarse un libro:
 
@@ -136,8 +145,9 @@ Representa los diferentes estados en los que puede encontrarse un libro:
 . RESERVADO
 . EN_MANTENIMIENTO
 
-## 🔗 Relaciones del diagrama
-### Asociación
+
+# 🔗 Relaciones del diagrama
+## Asociación
 
 La asociación se representa entre Usuario y Préstamo.
 
@@ -145,7 +155,8 @@ Un usuario puede realizar cero o muchos préstamos.
 
 Usuario "1" ───── "0..*" Préstamo
 
-### Agregación
+
+## Agregación
 
 La agregación se representa entre Autor y Libro.
 
@@ -153,7 +164,8 @@ Un autor puede estar relacionado con cero o muchos libros.
 
 Autor "1" ◇──── "0..*" Libro
 
-### Composición
+
+## Composición
 
 La composición se representa entre Libro y Préstamo.
 
@@ -161,7 +173,8 @@ Un libro puede tener cero o muchos registros de préstamo.
 
 Libro "1" ◆──── "0..*" Préstamo
 
-### Herencia
+
+## Herencia
 
 La herencia se representa entre Libro y LibroDigital.
 
@@ -171,6 +184,7 @@ Libro
   △
   │
 LibroDigital
+
 
 ## 🔢 Multiplicidades
 
@@ -182,25 +196,31 @@ Multiplicidad	      Significado
 0..*	              Cero o muchos
 1..*	              Uno o muchos
 
+
 ## 🧠 Conceptos de Programación Orientada a Objetos
 
 ### Abstracción
 
 Permite representar las características necesarias de cada elemento del sistema sin incluir información que no sea relevante para el modelo.
 
+
 ### Encapsulamiento
 
 Los atributos de las clases se representan como privados y los métodos como públicos, permitiendo organizar y proteger la información.
+
 
 ### Herencia
 
 LibroDigital hereda características de Libro, permitiendo reutilizar atributos y comportamientos.
 
+
 ### Polimorfismo
 
 Permite que un objeto de LibroDigital pueda ser tratado como un objeto de tipo Libro, manteniendo además sus comportamientos específicos.
 
+
 ## 🧱 Principios SOLID
+
 ### S – Responsabilidad única
 
 Cada clase tiene una responsabilidad específica dentro del sistema.
@@ -221,7 +241,8 @@ Las interfaces pueden diseñarse de manera específica para evitar que las clase
 
 El sistema puede utilizar abstracciones para disminuir la dependencia directa entre sus componentes.
 
-## 💻 Trabajo colaborativo en GitHub
+
+# 💻 Trabajo colaborativo en GitHub
 
 El proyecto fue desarrollado de manera colaborativa mediante GitHub.
 
@@ -229,7 +250,8 @@ Cada integrante participa en el desarrollo del proyecto utilizando su propia cue
 
 El repositorio contiene el diagrama UML, el código PlantUML, el documento de la actividad y las evidencias del trabajo colaborativo.
 
-## 📂 Estructura del repositorio
+
+# 📂 Estructura del repositorio
 Evidencia1-Diagrama-de-clase-UML/
 │
 ├── README.md
@@ -243,29 +265,34 @@ Evidencia1-Diagrama-de-clase-UML/
 └──plantuml/
     └── DiagramaBiblioteca.puml
 
-## 🖼️ Diagrama UML
+
+# 🖼️ Diagrama UML
 
 El diagrama de clases completo se encuentra en la carpeta diagrama.
 
 ### Archivo: Diagrama_UML_Biblioteca_Grupo7.png
 
-## 📄 Código PlantUML
+
+# 📄 Código PlantUML
 
 El código utilizado para elaborar el diagrama se encuentra en la carpeta plantuml.
 
 Archivo: DiagramaBiblioteca.puml
 
-## 🎥 Video de presentación
+
+# 🎥 Video de presentación
 
 Enlace al video:
 
 [PEGAR AQUÍ EL ENLACE DEL VIDEO]
 
-## 🔗 Enlace al repositorio
+
+# 🔗 Enlace al repositorio
 
 [PEGAR AQUÍ EL ENLACE DEL REPOSITORIO DE GITHUB]
 
-## 🏁 Conclusiones
+
+# 🏁 Conclusiones
 
 El desarrollo del Diagrama de Clases UML permitió representar de manera organizada la estructura de un sistema de biblioteca.
 
@@ -275,13 +302,15 @@ También se aplicaron conceptos de Programación Orientada a Objetos como abstra
 
 El uso de GitHub permitió organizar los archivos del proyecto y registrar los aportes realizados por los integrantes mediante el trabajo colaborativo.
 
-## 🛠️ Herramientas utilizadas
+
+# 🛠️ Herramientas utilizadas
 . GitHub
 . PlantUML
 . UML
 . Programación Orientada a Objetos
 
-## 📚 Referencias
+
+# 📚 Referencias
 
 •	IBM. (2025). ¿Qué es la normalización de bases de datos? IBM Think. https://www.ibm.com/es-es/think/topics/database-normalization 
 

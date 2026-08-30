@@ -265,12 +265,15 @@ Archivo: DiagramaBiblioteca.puml
 
 # 🎥 Video de presentación
 
-Enlace al video:
+# 🔗Enlace al video:
 https://drive.google.com/file/d/16QTO7JstaKnW3YINzWOJpNELQYrKvnMW/view?usp=drivesdk 
 
 
 # 🔗 Enlace al repositorio
 https://github.com/Karol-perez-castaneda/Evidencia1-Diagrama-de-clase-UML.git
+
+# 🔗 Enlace al Documento
+https://drive.google.com/file/d/10xt2gp7s5A51lOUOzXbk249WCyo7InvC/view?usp=drive_link
 
 
 # 🏁 Conclusiones
@@ -289,6 +292,7 @@ El uso de GitHub permitió organizar los archivos del proyecto y registrar los a
 . PlantUML
 . UML
 . Programación Orientada a Objetos
+. OBS Studio
 
 
 # 📚 Referencias

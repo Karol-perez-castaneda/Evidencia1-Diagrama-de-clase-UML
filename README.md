@@ -257,30 +257,30 @@ El proyecto fue desarrollado de manera colaborativa mediante GitHub.
 Cada integrante participa en el desarrollo del proyecto utilizando su propia cuenta y realizando aportes mediante commits.
 
 
-# Diagrama UML
+## Diagrama UML
 
 El diagrama de clases completo se encuentra en la carpeta diagrama.
 
 ### Archivo: Diagrama_UML_Biblioteca_Grupo7.png
 
 
-# Código PlantUML
+## Código PlantUML
 
 El código utilizado para elaborar el diagrama se encuentra en la carpeta plantuml.
 
-### Archivo: Codigo PlantUML.PDF
+### Archivo: Codigo PlantUML.pdf
 
 
 # 🎥 Video de presentación
 
-# 🔗Enlace al video:
+## 🔗Enlace al video:
 https://drive.google.com/file/d/16QTO7JstaKnW3YINzWOJpNELQYrKvnMW/view?usp=drivesdk 
 
 
-# 🔗 Enlace al repositorio
+## 🔗 Enlace al repositorio
 https://github.com/Karol-perez-castaneda/Evidencia1-Diagrama-de-clase-UML.git
 
-# 🔗 Enlace al Documento
+## 🔗 Enlace al Documento
 https://drive.google.com/file/d/10xt2gp7s5A51lOUOzXbk249WCyo7InvC/view?usp=drive_link
 
 

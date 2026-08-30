@@ -252,6 +252,23 @@ El repositorio contiene el diagrama UML, el código PlantUML, el documento de la
 
 
 # 📂 Estructura del repositorio
+EA1-DiagramaClases-Biblioteca/
+│
+├── README.md
+│
+├── diagrama/
+│   └── Diagrama_UML_Biblioteca_Grupo5.jpg
+│
+├── documento/
+│   └── EA1_DiagramaClases_Grupo5.pdf
+│
+├── plantuml/
+│   └── DiagramaBiblioteca.puml
+│
+└── evidencias/
+    └── capturas/
+
+
 Evidencia1-Diagrama-de-clase-UML/
 │
 ├── README.md
